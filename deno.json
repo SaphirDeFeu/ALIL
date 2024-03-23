@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@std/": "https://deno.land/std@0.220.1/",
+    "@/": "https://deno.land/x/"
+  },
+  "tasks": {
+    "start": "deno run -A __index__.ts",
+    "build": "cd target && deno compile -o alil ../__index__.ts && cd .."
+  }
+}
